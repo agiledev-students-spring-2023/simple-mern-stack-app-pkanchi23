@@ -7,10 +7,10 @@ import pic from './headshot_smiling.jpg'
  * @param {*} param0 an object holding any props passed to this component from its parent component
  * @returns The contents of this component, in JSX form.
  */
-const About_Me = props => {
+const About_Us = props => {
   return (
     <>
-      <h1>About Me</h1>
+      <h1>About Us</h1>
       <img src={pic} alt="Picture of Me!" />;
       <p>Hi, I'm Pranav! Im a current junior at NYU studying finance @ Stern and computer science @ CAS. My professional interests lie within the intersection of business and technology, but still trying to figure out exactly where. I also hope to start a startup at some point, but I'm still looking for the perfect idea. In the past, I've been lucky enough to work for a couple startups doing machine learning work while also doing research in the field. I've also had experience working more traditional finance roles like hedge funds and venture capital.</p>
       <p><br></br></p>
@@ -20,4 +20,4 @@ const About_Me = props => {
 }
 
 // make this component available to be imported into any other file
-export default About_Me
+export default About_Us
