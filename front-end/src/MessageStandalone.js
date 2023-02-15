@@ -28,6 +28,7 @@ const MessageStandalone = ({ message }) => {
     // need to load the message data from the server once
     // immediately invoke a function fetch the desired message from the server
     const fetchMessage = async messageId => {
+      console.log(`${process.env.REACT_APP_SERVER_HOSTNAME}/messages/${messageId}`)
       const response = await axios.get(
         `${process.env.REACT_APP_SERVER_HOSTNAME}/messages/${messageId}`
       )
